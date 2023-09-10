@@ -1,27 +1,38 @@
-# React + TypeScript + Vite
+# Project AI Summarizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Alt text](image.png)
 
-Currently, two official plugins are available:
+* This project is a web application that uses Article [Extractor and Summarizer](https://rapidapi.com/restyler/api/article-extractor-and-summarizer?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel) to summarize text.
+* This is an API which extracts news/article body from a URL and uses GPT to summarize (and optionally translate) the article content. Useful for text mining purposes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* Frontend: React
+* Build Tool: Vite
+* State Management: Redux
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+* Summarize text in a variety of languages
+* Customize the summary length
+* Save and share summaries
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Usage
+
+1. Paste the text you want to summarize into the text box.
+2. Click the "⏎" button.
+3. The website will generate a summary of the text.
+4. To copy the summary, click the copy button.
+
+## Additional Details
+
+* The frontend is built using React, a JavaScript library for building user interfaces.
+* The website can summarize text in a variety of languages, including English, French, German, Spanish, and Portuguese.
+* The user can customize the summary length by using a slider. The default summary length is 100 words.
+
+## Contact
+
+If you have any questions, please feel free to contact me.
+
+Thank you for your interest!
