@@ -2,7 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
 
+// @ts-ignore
 import App from "./App.jsx";
+// @ts-ignore
 import { store } from "./services/store";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
