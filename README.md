@@ -8,7 +8,7 @@
 
 ## Tech Stack
 
-* Frontend: React
+* Frontend: React with TailwindCSS
 * Build Tool: Vite
 * State Management: Redux
 
